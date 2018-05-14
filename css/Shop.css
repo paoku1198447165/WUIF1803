@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    height: 100px;
+    background: rgba(97,97,97,0.59);
+    overflow: hidden;
+}
+.main{
+    width:1226px ;
+    height:100%;
+    /*background:#f6f6f6 ;*/
+    margin: 0 auto;
+    overflow: hidden;
+}
+.top .main .logo{
+    width:280px ;
+    height:76px ;
+    background-image:url("../img/2017041411403829.png") ;
+    float: left;
+    margin-top:12px ;
+}
+.top .main .topNav{
+    width:700px ;
+    height:60px;
+    /*background: blue;*/
+    float: left;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.top .main .topNav ul{
+    box-sizing: border-box;
+}
+.top .main .topNav ul li{
+    float: left;
+    width: 140px;
+}
+.top .main .topNav ul li a{
+    font-size: 18px;
+    color: black;
+    line-height: 60px;
+    display:flex;
+    justify-content: center;
+}
+.top .main .topNav ul li:first-child a{
+    color:aqua;
+}
+.top .main .topNav li a:hover{
+    color: aqua;
+    transform: scale(1.5,1.5);
+}
+.tup{
+    width:100%;
+    height:160px;
+    /*background: fuchsia;*/
+    margin-top:20px;
+}
+.tup .main .hentu{
+    width: 100%;
+    height: 160px;
+    background-image: url("../img/100.jpg");
+    background-size: cover;
+}
+.content{
+    width: 100%;
+    height:100%;
+    margin-top: 50px;
+}
+.content .main .teach{
+    width: 100%;
+    height: 120px;
+    /*background: pink;*/
+    overflow: hidden;
+    border-bottom:2px solid #8d8d8a;
+    margin-bottom: 50px;
+
+}
+.content .main .teach a{
+    font-size: 30px;
+    display: block;
+    margin:20px 0 0 25px;
+}
+.content .main .pic{
+    width: 100%;
+    height: 100%;
+    /*background: #825adc;*/
+}
+.content .main .pic ul li{
+    width:350px;
+    height:300px;
+}
+.content .main .pic ul li:hover{
+    transform: translate(0,-5px);
+}
+.content .main .pic ul li .shangfu{
+    width: 100%;
+    height: 20%;
+    background: yellow;
+    margin-top:76px;
+    transition: transform 1s;
+}
+.content .main .pic ul li .shangfu span{
+    display:block;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 10px;
+    color:#f0f0f0;
+}
+.content .main .pic ul li .shangfu:hover{
+    transform: translate(0,-200px);
+}
+
+
+
